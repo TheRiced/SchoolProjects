@@ -35,6 +35,8 @@ public class CardGameGUI extends Application {
     handLabel.setText("Hand: " + currentHand);
   }
 
+  
+
   private void checkHand() {
     if (currentHand.isEmpty()) {
       resultLabel.setText("No hand dealt yet");
@@ -47,6 +49,8 @@ public class CardGameGUI extends Application {
             "Contains Q of Spades: " + hand.containsQueenOfSpades() + "\n" +
             "Flush: " + hand.isFlush()
     );
+
+
   }
 
   public static void main(String[] args) {
