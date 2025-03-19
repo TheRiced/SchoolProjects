@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.*;
 
-public class CardDeck implements CardContainer{
+public class DeckOfCards implements CardContainer{
   private final List<Card> cards = new ArrayList<>();
 
-  public CardDeck() {
+  public DeckOfCards() {
     for (char suit : Card.suits) {
       for (int face = 1; face <= 13; face++) {
         cards.add(new Card(suit, face));
