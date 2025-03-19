@@ -111,7 +111,7 @@ public class CardGameGUI extends Application {
   /**
    *
    * @param suit
-   * @return
+   * @return the suit with image
    */
 
   private String getSuitFileName(char suit) {
